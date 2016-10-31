@@ -1,0 +1,11 @@
++ github host
+- .zip or .dmg ?
+- .new .dmg doesnt work for prem, old one does
+- security settings, if strict then ... 
+- code signing excess finder info issue (see code-signing-and-packaging.txt)
+- support 10.7? earlier?
+/ clock movie
++ paypal button
++ change existing savers prices
+- launch email
+- www description
