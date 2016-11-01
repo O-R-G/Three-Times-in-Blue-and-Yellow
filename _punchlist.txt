@@ -1,11 +1,12 @@
 + github host
-- .zip or .dmg ?
-- .new .dmg doesnt work for prem, old one does
-- security settings, if strict then ... 
-- code signing excess finder info issue (see code-signing-and-packaging.txt)
-- support 10.7? earlier?
-/ clock movie
++ .zip or .dmg ? .dmg
++ .new .dmg doesnt work for prem, old one does
++ security settings, if strict then ... 
++ code signing excess finder info issue (see _notes.txt)
+x support 10.7? earlier?
 + paypal button
 + change existing savers prices
+- icon to .saver (xcode)
 - launch email
 - www description
+- clock movie?

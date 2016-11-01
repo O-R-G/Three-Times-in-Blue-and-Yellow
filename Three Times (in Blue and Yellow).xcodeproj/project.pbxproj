@@ -10,6 +10,7 @@
 		932BFB941DC6F58100685FF8 /* icon_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 932BFB911DC6F58100685FF8 /* icon_512x512.png */; };
 		932BFB951DC6F58100685FF8 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932BFB921DC6F58100685FF8 /* thumbnail@2x.png */; };
 		932BFB961DC6F58100685FF8 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 932BFB931DC6F58100685FF8 /* thumbnail.png */; };
+		934F9F6F1DC8EF7400428465 /* Three.icns in Resources */ = {isa = PBXBuildFile; fileRef = 934F9F6E1DC8EF7400428465 /* Three.icns */; };
 		93560B771DB84ECA0034DC1C /* Three_Times__in_Blue_and_Yellow_View.h in Headers */ = {isa = PBXBuildFile; fileRef = 93560B761DB84ECA0034DC1C /* Three_Times__in_Blue_and_Yellow_View.h */; };
 		93560B791DB84ECA0034DC1C /* Three_Times__in_Blue_and_Yellow_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 93560B781DB84ECA0034DC1C /* Three_Times__in_Blue_and_Yellow_View.m */; };
 /* End PBXBuildFile section */
@@ -18,6 +19,7 @@
 		932BFB911DC6F58100685FF8 /* icon_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512x512.png; sourceTree = "<group>"; };
 		932BFB921DC6F58100685FF8 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		932BFB931DC6F58100685FF8 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		934F9F6E1DC8EF7400428465 /* Three.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Three.icns; sourceTree = "<group>"; };
 		93560B731DB84ECA0034DC1C /* Three Times (in Blue and Yellow).saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Times (in Blue and Yellow).saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93560B761DB84ECA0034DC1C /* Three_Times__in_Blue_and_Yellow_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Three_Times__in_Blue_and_Yellow_View.h; sourceTree = "<group>"; };
 		93560B781DB84ECA0034DC1C /* Three_Times__in_Blue_and_Yellow_View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three_Times__in_Blue_and_Yellow_View.m; sourceTree = "<group>"; };
@@ -54,12 +56,13 @@
 		93560B751DB84ECA0034DC1C /* Three Times (in Blue and Yellow) */ = {
 			isa = PBXGroup;
 			children = (
-				932BFB911DC6F58100685FF8 /* icon_512x512.png */,
-				932BFB921DC6F58100685FF8 /* thumbnail@2x.png */,
-				932BFB931DC6F58100685FF8 /* thumbnail.png */,
 				93560B761DB84ECA0034DC1C /* Three_Times__in_Blue_and_Yellow_View.h */,
 				93560B781DB84ECA0034DC1C /* Three_Times__in_Blue_and_Yellow_View.m */,
 				93560B7A1DB84ECA0034DC1C /* Info.plist */,
+				932BFB911DC6F58100685FF8 /* icon_512x512.png */,
+				932BFB921DC6F58100685FF8 /* thumbnail@2x.png */,
+				932BFB931DC6F58100685FF8 /* thumbnail.png */,
+				934F9F6E1DC8EF7400428465 /* Three.icns */,
 			);
 			path = "Three Times (in Blue and Yellow)";
 			sourceTree = "<group>";
@@ -107,8 +110,8 @@
 				TargetAttributes = {
 					93560B721DB84ECA0034DC1C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 676399RABB;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 2T5W462SEL;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				932BFB941DC6F58100685FF8 /* icon_512x512.png in Resources */,
+				934F9F6F1DC8EF7400428465 /* Three.icns in Resources */,
 				932BFB951DC6F58100685FF8 /* thumbnail@2x.png in Resources */,
 				932BFB961DC6F58100685FF8 /* thumbnail.png in Resources */,
 			);
@@ -246,9 +250,9 @@
 		93560B7E1DB84ECA0034DC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: O-R-G inc. (2T5W462SEL)";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 676399RABB;
+				DEVELOPMENT_TEAM = 2T5W462SEL;
 				INFOPLIST_FILE = "Three Times (in Blue and Yellow)/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -261,9 +265,9 @@
 		93560B7F1DB84ECA0034DC1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: O-R-G inc. (2T5W462SEL)";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 676399RABB;
+				DEVELOPMENT_TEAM = 2T5W462SEL;
 				INFOPLIST_FILE = "Three Times (in Blue and Yellow)/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
