@@ -32,15 +32,12 @@
 - (void)drawRect:(NSRect)rect
 {
     [super drawRect:rect];
-}
-
-- (void)animateOneFrame
-{
+    
     // get Core Graphics (CG) graphics context (Quartz 2D)
     
     CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
     CGContextSetShouldAntialias(context, 1);
-
+    
     // set global dims
     // move this out of local scope?
     
@@ -62,9 +59,9 @@
     CGRect bg = CGRectMake(0, 0, [self bounds].size.width, [self bounds].size.height);
     CGContextSetRGBFillColor (context, 1, 1, 1, 1);
     CGContextFillRect(context, bg);
-
+    
     // hours
-
+    
     CGContextSetFillColorWithColor(context, blue);
     CGContextAddArc(context, xCenter-radius, yCenter, radius, radians(hourtodegree(sweephour) + 90), radians(hourtodegree(sweephour) - 90), 0);
     CGContextFillPath(context);
@@ -80,7 +77,7 @@
     CGContextSetFillColorWithColor(context, yellow);
     CGContextAddArc(context, xCenter, yCenter, radius, radians(minutetodegree(sweepminute) + 90), radians(minutetodegree(sweepminute) - 90), 1);
     CGContextFillPath(context);
- 
+    
     // seconds
     
     CGContextSetFillColorWithColor(context, blue);
@@ -91,8 +88,14 @@
     CGContextFillPath(context);
     
     // [self debugText:xCenter/15 yPosition:yCenter/15 canvasWidth:200 canvasHeight:100];        // debug
-
+    
     CGContextFlush(context);
+}
+
+- (void)animateOneFrame
+{
+    [self setNeedsDisplay:YES];
+    return;
 }
 
 - (void) checkTime_nsdate
