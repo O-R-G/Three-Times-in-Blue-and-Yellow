@@ -2,7 +2,7 @@
 
 Three Times (in Blue and Yellow)
 Designed by Karel Martens
-Version 1.1, macOS 10.8+, 2018
+Version 1.2, 2023
 
 --
 
