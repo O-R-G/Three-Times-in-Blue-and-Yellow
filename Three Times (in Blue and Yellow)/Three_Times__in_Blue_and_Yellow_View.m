@@ -35,7 +35,7 @@
     
     // get Core Graphics (CG) graphics context (Quartz 2D)
     
-    CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
+    CGContextRef context = [[NSGraphicsContext currentContext] CGContext];
     CGContextSetShouldAntialias(context, 1);
     
     // set global dims
